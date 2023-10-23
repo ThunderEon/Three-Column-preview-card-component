@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+}
+.container{
+    overflow: hidden;
+    border-radius: 8px;
+}
+.orange {
+  background: #e28525;
+}
+.blue {
+  background: #016972;
+}
+.green {
+  background: #00403f;
+}
+.orange , .green , .blue{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 10% auto 35%;
+}
+.orange > div, .green > div, .blue > div{
+    width: 80%;
+    color: white;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    display: flex;
+}
+.icon img{
+    width: 70px;
+    height: 35px;
+}
+.title{
+    width: 100%;
+    height: 100%;
+    color: #ffffffee;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: #f5f8f898;
+}
+.btn{
+    all: unset;
+    height: 40px;
+    width: 85%;
+    border: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #f4f2ee;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btn:hover{
+    background: transparent;
+    color: white;
+    border: 2px solid #ffffffda;
+}
+.btn1{
+    color: #e28525;
+}
+.btn2{
+    color: #016972;
+}
+.btn3{
+    color: #00403f;
+}
